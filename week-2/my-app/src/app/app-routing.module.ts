@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: Exercise 2.2
+; Author: Andres Macias
+; Date: Nov 6th 2022
+; Description: contains the code for the routes to the components
+;===========================================
+*/
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
