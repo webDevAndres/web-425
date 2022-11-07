@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Exercise 2.4
+; Author: Andres Macias
+; Date: Nov 7 2022
+; Description: contains the module declaration for the about, composer-list and contact components. Also imports the appRoutingModule
+;===========================================
+*/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 

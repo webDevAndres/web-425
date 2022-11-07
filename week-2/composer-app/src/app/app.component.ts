@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Exercise 2.4
+; Author: Andres Macias
+; Date: Nov 7 2022
+; Description: contains the assignment variable name for the composer app
+;===========================================
+*/
 import { Component } from '@angular/core';
 
 @Component({
