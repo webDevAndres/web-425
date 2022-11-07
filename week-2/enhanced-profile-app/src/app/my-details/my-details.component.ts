@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: Assignment 2.3 - Data Binding
+; Author: Andres Macias
+; Date: Nov 7 2022
+; Description: contains typescript Person class and the myProfile variable.
+;===========================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 export default class Person {
@@ -30,6 +39,7 @@ export class MyDetailsComponent implements OnInit {
   myProfile: Person;
 
   constructor() {
+    // a new instance of the PersonClass is instantiated with a name, food and color and stored in the myProfile property.
     this.myProfile = new Person("Andres Macias", "Pizza", "Purple");
     this.myProfile.toString();
    }

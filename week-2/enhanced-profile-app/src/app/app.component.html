@@ -1,8 +1,8 @@
 <!--
 ============================================
-; Title: Assignment 1.5
+; Title: Assignment 2.3 - Data Binding
 ; Author: Andres Macias
-; Date: Nov 6th 2022
+; Date: Nov 7 2022
 ; Description: contains nav and main container for the enhanced profile-app
 ;===========================================
 -->
@@ -24,6 +24,7 @@
 <div class="container">
   <br><br>
   <h2>{{assignment}}</h2>
+  <!-- The ngIf expression is used to display content based on an expression. Similar to if else statements. -->
   <div class="row" *ngIf="isLoggedIn; else showError">
     <div class="col-sm-4">
       <app-my-image></app-my-image>
@@ -35,6 +36,7 @@
     </div>
   </div>
 
+  <!-- The angular ng-template directive is used to render HTML -->
   <ng-template #showError>
     <div class="row">
       <div class="col-sm-12">
