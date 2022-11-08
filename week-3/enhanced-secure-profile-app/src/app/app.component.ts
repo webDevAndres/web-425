@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: Assignment 3.4
+; Author: Andres Macias
+; Date: Nov 7 2022
+; Description: contains the assignment variable for the app
+;===========================================
+*/
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +15,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
- assignment = 'Secure Profile App';
+ assignment = 'Enhanced Secure Profile App';
 }
