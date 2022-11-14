@@ -9,6 +9,9 @@
 
 import { Injectable } from '@angular/core';
 import { IComposer } from './composer.interface';
+import { Observable } from 'rxjs';
+import { of } from 'rxjs';
+import {map} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -36,8 +39,8 @@ export class ComposerService {
     ]
   }
 
-  getComposers() {
-    return this.composers;
+  getComposers():Observable<IComposer[]> {
+    return of(this.composers);
   }
 
   getComposer(composerId: number) {
@@ -46,5 +49,10 @@ export class ComposerService {
         return composer;
       }
     }
+  }
+
+  filterComposers(name: string):Observable<IComposer[]>{
+    return of(this.composers).pipe(map(composers => composers.filter(composer => composer.fullName.toLowerCase().indexOf(name) > -1)))
+
   }
 }
