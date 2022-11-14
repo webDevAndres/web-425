@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Exercise 4.2
+; Author: Andres Macias
+; Date: Nov 13 2022
+; Description: contains app component
+;===========================================
+*/
 import { Component } from '@angular/core';
 
 @Component({
