@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  assignment= 'Exercise 3.2 - Passing Data to Routes, Part 1';
+  assignment= 'Exercise 4.2 - Inversion of Control and Dependency Injection';
 }
