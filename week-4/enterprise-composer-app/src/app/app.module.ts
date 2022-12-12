@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ComposerDetailsComponent } from './composer-details/composer-details.component';
 import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
     ComposerListComponent,
     ContactComponent,
     AboutComponent,
-    ComposerDetailsComponent
+    ComposerDetailsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
